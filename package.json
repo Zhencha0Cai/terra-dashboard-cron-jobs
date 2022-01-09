@@ -1,0 +1,27 @@
+{
+  "name": "terra-dashboard-cron-jobs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": "git@github.com:Zhencha0Cai/terra-dashboard-cron-jobs.git",
+  "author": "Zhencha0Cai",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "sequelize": "^7.0.0-alpha.4",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
+    "typescript": "^4.5.4"
+  }
+}
